@@ -6,5 +6,5 @@ class CommentsController < ApplicationController
    			format.html { redirect_to @post }
     		format.js
         end
-
+    end
 end
